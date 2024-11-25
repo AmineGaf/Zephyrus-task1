@@ -20,4 +20,4 @@ Initially, the dark mode styles for sections were not applying due to missing or
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone [<repository_url>](https://github.com/AmineGaf/Zephyrus-task1.git)
+   git clone https://github.com/AmineGaf/Zephyrus-task1.git
