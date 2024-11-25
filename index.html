@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Zephyrus Engineering</div>
+        <button class="menu-toggle" id="menu-toggle">
+            <span class="menu-icon"></span>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <button class="close-btn" id="close-menu">✖</button>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">🌙</button>
+    </header>
+
+
+    <main class="main-content">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Zephyrus Engineering Limited is a client-focused civil and environmental engineering firm dedicated to
+                delivering superior results across diverse industries. We pride ourselves on using cutting-edge
+                technologies, innovative design principles, and rigorous project management to tackle some of the most
+                complex engineering challenges today.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>You can find our different projects here:</p>
+            <ul>
+                <li>
+                    <img src="./assets/civil.jpg" alt="civil-engineering">
+                    <p>Civil Engineering</p>
+                </li>
+                <li>
+                    <img src="./assets/environmental.jpg" alt="environmental">
+                    <p>Environmental Engineering</p>
+                </li>
+                <li>
+                    <img src="./assets/structural.jpg" alt="structural">
+                    <p>Structural Engineering</p>
+                </li>
+                <li>
+                    <img src="./assets/geotechnical.jpg" alt="geotechnical">
+                    <p>Geotechnical Engineering</p>
+                </li>
+                <li>
+                    <img src="./assets/construction.jpg" alt="construction">
+                    <p>Construction Management & Inspection</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" novalidate>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Zephyrus Engineering Limited. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
